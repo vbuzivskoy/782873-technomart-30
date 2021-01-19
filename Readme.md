@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
-* Студент: [Vyacheslav Buzivskyy](https://up.htmlacademy.ru/htmlcss/30/user/782873).
-* Наставник: `Неизвестно`.
+- Студент: [Vyacheslav Buzivskyy](https://up.htmlacademy.ru/htmlcss/30/user/782873).
+- Наставник: [Вадим Канинский](https://htmlacademy.ru/profile/id78842).
 
 ---
 
