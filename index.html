@@ -11,19 +11,39 @@
     <header class="main-header">
       <a>ТЕХНОМАРТ</a>
       <form action="#">
-        <input type="search" name="search" placeholder="Поиск" />
+        <label for="search-field">
+          <img
+            src="https://via.placeholder.com/17x17"
+            alt="Увеличительное стекло"
+          />
+          <p>Поиск:</p>
+        </label>
+        <input id="search-field" type="search" name="search" />
       </form>
-      <p>Закладки: 0</p>
-      <p>Корзина: 0</p>
+      <div class="bookmarks">
+        <img src="https://via.placeholder.com/14x16" alt="Флажок" />
+        <p>Закладки: 0</p>
+      </div>
+      <div class="basket">
+        <img src="https://via.placeholder.com/15x15" alt="Тележка" />
+        <p>Корзина: 0</p>
+      </div>
       <a href="#">Оформить заказ</a>
       <p>
         Интернет-магазин<br />
         строительных материалов<br />
         и инструментов для ремонта
       </p>
-      <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-      <button type="button">Войти</button>
+      <section>
+        <h2 class="visually-hidden">Контактная информация</h2>
+        <img src="https://via.placeholder.com/19x19" alt="Телефонная трубка" />
+        <a href="tel:+78125550555">+7 (812) 555-05-55</a>
+        <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      </section>
+      <button type="button">
+        <img src="https://via.placeholder.com/20x17" alt="Стрелка влево" />
+        Войти
+      </button>
       <button type="button">Регистрация</button>
       <nav class="header-submenu">
         <ul>
@@ -46,18 +66,24 @@
             <a href="#">
               <h3>Материалы</h3>
               <p>НА ЛЮБОЙ ВКУС</p>
+              <img
+                src="https://via.placeholder.com/44x65"
+                alt="Ведро с краской"
+              />
             </a>
           </li>
           <li>
             <a href="#">
               <h3>Инструмент</h3>
               <p>НА ВСЕ СЛУЧАИ</p>
+              <img src="https://via.placeholder.com/75x61" alt="Шуроповер" />
             </a>
           </li>
           <li>
             <a href="#">
               <h3>Техника</h3>
               <p>ДЛЯ СТРОЙКИ</p>
+              <img src="https://via.placeholder.com/78x62" alt="Трактор" />
             </a>
           </li>
           <li class="slider">
@@ -69,18 +95,28 @@
             />
             <button type="button">Назад</button>
             <button type="button" disabled>Вперед</button>
+            <img src="https://via.placeholder.com/10x10" alt="Точка" />
+            <img
+              src="https://via.placeholder.com/10x10"
+              alt="Точка закршенная"
+            />
             <a href="catalog.html">ОТКРЫТЬ КАТАЛОГ</a>
           </li>
           <li>
             <a href="#">
               <h3>Скидки 50%</h3>
               <p>На 350 ТОВАРОВ</p>
+              <img src="https://via.placeholder.com/59x72" alt="Тележка" />
             </a>
           </li>
           <li>
             <a href="#">
               <h3>Доставка</h3>
               <p>БЕСПЛАТНО</p>
+              <img
+                src="https://via.placeholder.com/78x63"
+                alt="Грузовой автомобиль"
+              />
             </a>
           </li>
         </ul>
