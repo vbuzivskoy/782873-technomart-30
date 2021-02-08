@@ -1,0 +1,370 @@
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-extra-dark: #293449;
+  --basic-dark: #32425c;
+  --basic-lighter-dark: #405069;
+  --basic-neutral: #f7f3ec;
+  --basic-extra-neutral: #f9f5f0;
+  --basic-light: #f1f5f7;
+  --basic-extra-light: #f2f6f8;
+  --basic-red: red;
+  --basic-white: #ffffff;
+
+  --special-red: #ee3643;
+  --special-coral: #FF5357;
+  --special-yellow: #ffbf47;
+  --special-dark-yellow: #ffc047;
+  --special-sand: #ffd180;
+  --special-aqua: #3bbce3;
+  --special-lilac: #dc91d8;
+  --special-light-green: #8ed78f;
+  --special-green: #63a63e;
+  --special-gray: #c5c5c5;
+  --special-light-gray: #e5e5e5;
+  --special-dark-gray: #a9a9a9;
+}
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/* Main header */
+
+.main-header {
+  font-size: 18px;
+  background-color: var(--basic-extra-light);
+}
+
+.main-menu {
+  background-color: var(--basic-dark);
+  color: var(--basic-white);
+}
+
+.main-menu a {
+  color: var(--basic-white);
+}
+
+.main-header-logo {
+  background-color: var(--special-red);
+  border-bottom: 5px solid #b52933;
+}
+
+.search-field {
+  background-color: var(--basic-dark);
+  color: var(--basic-white);
+  border: none;
+}
+
+.search-field:focus {
+  background-color: var(--basic-white);
+  color: var(--basic-black);
+}
+
+.main-navigation {
+  background-color: var(--basic-dark);
+  border-bottom: 6px solid var(--basic-extra-dark);
+}
+
+.main-navigation a {
+  color: var(--basic-white);
+}
+
+.main-navigation a:hover,
+.main-navigationn a:focus {
+  background-color: var(--basic-extra-dark);
+  color: var(--basic-white);
+}
+
+.header-slogan {
+  font-size: 16px;
+  font-style: italic;
+  color: var(--special-red);
+}
+
+.header-call-us {
+  font-size: 21px;
+  text-align: center;
+  border: 4px solid var(--basic-white);
+}
+
+.header-call-us a {
+  color: var(--special-red);
+}
+
+.header-address {
+  font-size: 14px;
+  color: var(--basic-dark);
+}
+
+.login-button,
+.register-button {
+  font-size: 21px;
+  color: var(--basic-black);
+  text-align: center;
+  background-color: var(--basic-white);
+  border: none;
+}
+
+/* Main */
+
+.main-container section h2 {
+  font-size: 30px;
+  color: var(--basic-black);
+}
+
+.main-container .button {
+  font-size: 14px;
+  color: var(--basic-white);
+  background-color: var(--special-red);
+  border: none;
+}
+
+.popular-categoties-item h3 {
+  font-size: 24px;
+  color: var(--basic-white);
+}
+
+.popular-categoties-item .button {
+  font-size: 14px;
+  color: var(--basic-white);
+  background-color: rgba(255, 255, 255, 0.3)
+}
+
+.materials-item {
+    background-color: var(--special-yellow);
+}
+
+.tools-item {
+  background-color: var(--special-aqua);
+}
+
+.machinery-item {
+  background-color: var(--special-lilac);
+}
+
+.discount-item {
+  background-color: var(--special-light-green);
+}
+
+.delivery-item {
+  background-color: var(--special-yellow);
+}
+
+.slider-item {
+  color: var(--basic-white);
+  background-color: var(--basic-dark);
+}
+
+.slider-item h3 {
+  font-size: 36px;
+}
+
+.slider-item p {
+  font-size: 18px;
+}
+
+.perforator-slider-item {
+  background-image: url("../img/man-with-perforator.png");
+  background-repeat: no-repeat;
+}
+
+.drill-slider-item {
+  background-image: url("../img/man-with-drill.png");
+  background-repeat: no-repeat;
+}
+
+.open-catalog-button {
+  background-color: var(--special-red);
+}
+
+.main-container .gallery-button {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.popular-section header {
+  background-color: var(--basic-neutral);
+}
+
+.popular-section header h2 {
+  color: var(--basic-dark);
+}
+
+.popular-item {
+  border: 2px solid var(--basic-neutral);
+  text-align: center;
+}
+
+.popular-goods-item h3 {
+  font-size: 18px;
+  color: var(--basic-black);
+}
+
+.popular-goods-item .old-price {
+  font-size: 17px;
+  text-decoration: line-through;
+  color: var(--special-dark-gray);
+}
+
+.popular-goods-item .new-price {
+  font-size: 17px;
+  color: var(--basic-white);
+  background-color: var(--special-red);
+}
+
+.services {
+  color: var(--basic-black);
+  background-color: var(--basic-light);
+}
+
+.services h2 {
+  font-size: 30px;
+  color: var(--basic-black);
+}
+
+.service-button {
+  font-size: 21px;
+  color: var(--basic-white);
+  background-color: var(--basic-dark);
+  border: none;
+  border-top: 1px solid var(--basic-extra-dark);
+  border-bottom: 1px solid var(--basic-lighter-dark);
+}
+
+.service-button-active {
+  color: var(--basic-dark);
+  background-color: var(--basic-white);
+  border: none;
+  border-top: 2px solid var(--basic-dark);
+  border-bottom: 2px solid var(--basic-dark);
+}
+
+.service-item {
+  color: var(--basic-dark);
+}
+
+.service-item h3 {
+  font-size: 30px;
+}
+
+.service-item .button {
+  font-size: 14px;
+  background-color: var(--special-coral);
+  border-radius: 2px;
+}
+
+.service-item-inactive {
+  display: none;
+}
+
+.delivery-services-list {
+  font-size: 18px;
+}
+
+.delivery-services-list li {
+  list-style-image: url("../img/icons/icon-list-marker-line.svg");
+}
+
+
+/* Main footer */
+
+.main-footer {
+  font-size: 18px;
+  color: var(--basic-white);
+  background-color: var(--basic-dark);
+}
+
+.main-footer-logo {
+  background-color: var(--special-red);
+  border-bottom: 5px solid #b52933;
+}
+
+.main-footer .contacts-phone {
+  color: var(--basic-white);
+}
+
+.footer-navigation a {
+  color: var(--basic-white);
+}
+
+.footer-catalog-navigation a {
+  color: var(--special-sand);
+}
+
+.footer-bottom {
+  background-color: var(--basic-extra-dark);
+}
+
+.social-button {
+  background-color: #212A3A;
+  border-radius: 50%;
+}
+
+.footer-dev-info p {
+  margin: 0;
+}
+
+.footer-dev-info a {
+  color: var(--special-sand);
+}
+
+
+/* Modals */
+
+.modal {
+  font-size: 18px;
+  border-top: 7px solid var(--special-coral);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.modal input,
+.modal textarea {
+  font-size: 13px;
+
+  border: 2px solid var(--special-gray);
+}
+
+.modal-bottom {
+  background-color: #f4f4f4;
+}
+.modal .button {
+  font-size: 14px;
+  color: var(--basic-white);
+  background-color: var(--special-red);
+  border: none;
+}
+
+.modal .modal-close-button {
+  background: none;
+  border: none;
+}
