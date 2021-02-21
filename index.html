@@ -70,22 +70,26 @@
         </p>
         <section class="header-contacts">
           <h2 class="visually-hidden">Контактная информация</h2>
-          <div class="header-call-us">
+          <a class="button header-call-us-button" href="tel:+78125550555">
             <img
               src="img/icons/icon-phone.svg"
               alt="Позвонить нам"
               width="19"
               height="19"
             />
-            <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-          </div>
-          <p class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            +7 (812) 555-05-55
+          </a>
+          <p class="header-address">
+            г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+          </p>
         </section>
         <button class="button login-button" type="button">
           <img src="img/icons/icon-login.svg" alt="" width="20" height="17" />
           Войти
         </button>
-        <button class="button register-button" type="button">Регистрация</button>
+        <button class="button register-button" type="button">
+          Регистрация
+        </button>
       </div>
       <nav class="main-navigation">
         <ul>
@@ -107,7 +111,7 @@
         <ul class="popular-categoties-list">
           <li class="new popular-categoties-item materials-item">
             <h3>Материалы</h3>
-            <a class="button" href="#">НА ЛЮБОЙ ВКУС</a>
+            <a class="popular-categoties-item-button" href="#">НА ЛЮБОЙ ВКУС</a>
             <img
               src="img/icons/icon-paint-bucket.svg"
               alt="Ведро с краской"
@@ -117,7 +121,7 @@
           </li>
           <li class="popular-categoties-item tools-item">
             <h3>Инструмент</h3>
-            <a class="button" href="#">НА ВСЕ СЛУЧАИ</a>
+            <a class="popular-categoties-item-button" href="#">НА ВСЕ СЛУЧАИ</a>
             <img
               src="img/icons/icon-drill.svg"
               alt="Дрель"
@@ -127,7 +131,7 @@
           </li>
           <li class="popular-categoties-item machinery-item">
             <h3>Техника</h3>
-            <a class="button" href="#">ДЛЯ СТРОЙКИ</a>
+            <a class="popular-categoties-item-button" href="#">ДЛЯ СТРОЙКИ</a>
             <img
               src="img/icons/icon-tractor.svg"
               alt="Трактор"
@@ -140,17 +144,23 @@
               <li class="slider-item perforator-slider-item">
                 <h3>ПЕРФОРАТОРЫ</h3>
                 <p>Настоящие мужские игрушки</p>
-                <a class="button open-catalog-button" href="perforators.html">ОТКРЫТЬ КАТАЛОГ</a>
+                <a
+                  class="main-container-button open-catalog-button"
+                  href="perforators.html"
+                  >ОТКРЫТЬ КАТАЛОГ</a
+                >
               </li>
               <li class="slider-item drill-slider-item">
                 <h3>ДРЕЛИ</h3>
                 <p>Соседям на радость!</p>
-                <a class="button open-catalog-button" href="#">ОТКРЫТЬ КАТАЛОГ</a>
+                <a class="main-container-button open-catalog-button" href="#"
+                  >ОТКРЫТЬ КАТАЛОГ</a
+                >
               </li>
             </ul>
 
             <button
-              class="button gallery-button gallery-button-back"
+              class="main-container-button gallery-nav-button gallery-button-back"
               type="button"
             >
               <img
@@ -161,7 +171,7 @@
               />
             </button>
             <button
-              class="button gallery-button gallery-button-next"
+              class="main-container-button gallery-nav-button gallery-button-next"
               type="button"
               disabled
             >
@@ -178,7 +188,9 @@
           </li>
           <li class="popular-categoties-item discount-item">
             <h3>Скидки 50%</h3>
-            <a class="button" href="#">На 350 ТОВАРОВ</a>
+            <a class="popular-categoties-item-button" href="#"
+              >На 350 ТОВАРОВ</a
+            >
             <img
               src="img/icons/icon-cart-with-goods.svg"
               alt="Тележка с товарами"
@@ -188,7 +200,7 @@
           </li>
           <li class="popular-categoties-item delivery-item">
             <h3>Доставка</h3>
-            <a class="button" href="#">БЕСПЛАТНО</a>
+            <a class="popular-categoties-item-button" href="#">БЕСПЛАТНО</a>
             <img
               src="img/icons/icon-truck.svg"
               alt="Грузовой автомобиль"
@@ -202,10 +214,10 @@
       <section class="popular-section popular-goods">
         <header>
           <h2>ПОПУЛЯРНЫЕ ТОВАРЫ:</h2>
-          <a class="button" href="#">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
+          <a class="main-container-button" href="#">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
         </header>
         <ul class="popular-goods-list">
-          <li class="popular-item popular-goods-item">
+          <li class="catalog-item catalog-goods-item">
             <a href="#">
               <img
                 src="img/perforator-bosch-bfg-9000.png"
@@ -214,11 +226,11 @@
                 height="164"
               />
               <h3>Перфоратор BOSCH BFG 9000</h3>
-              <p class="old-price">32500 Р.</p>
-              <p class="new-price">25500 Р.</p>
+              <p class="catalog-goods-item-old-price">32500 Р.</p>
+              <p class="catalog-goods-item-new-price">25500 Р.</p>
             </a>
           </li>
-          <li class="popular-item popular-goods-item new">
+          <li class="catalog-item catalog-goods-item new">
             <a href="#">
               <img
                 src="img/perforator-bosch-bfg-3000.png"
@@ -227,11 +239,11 @@
                 height="112"
               />
               <h3>Перфоратор BOSCH BFG 3000</h3>
-              <p class="old-price">22500 Р.</p>
-              <p class="new-price">15500 Р.</p>
+              <p class="catalog-goods-item-old-price">22500 Р.</p>
+              <p class="catalog-goods-item-new-price">15500 Р.</p>
             </a>
           </li>
-          <li class="popular-item popular-goods-item">
+          <li class="catalog-item catalog-goods-item">
             <a href="#">
               <img
                 src="img/perforator-bosch-bfg-6000.png"
@@ -240,11 +252,11 @@
                 height="128"
               />
               <h3>Перфоратор BOSCH BFG 6000</h3>
-              <p class="old-price">30500 Р.</p>
-              <p class="new-price">25500 Р.</p>
+              <p class="catalog-goods-item-old-price">30500 Р.</p>
+              <p class="catalog-goods-item-new-price">25500 Р.</p>
             </a>
           </li>
-          <li class="popular-item popular-goods-item new">
+          <li class="catalog-item catalog-goods-item new">
             <a href="#">
               <img
                 src="img/perforator-bosch-bfg-2000.png"
@@ -253,8 +265,8 @@
                 height="112"
               />
               <h3>Перфоратор BOSCH BFG 2000</h3>
-              <p class="old-price">22500 Р.</p>
-              <p class="new-price">12500 Р.</p>
+              <p class="catalog-goods-item-old-price">22500 Р.</p>
+              <p class="catalog-goods-item-new-price">12500 Р.</p>
             </a>
           </li>
         </ul>
@@ -263,10 +275,10 @@
       <section class="popular-section popular-manufacturers">
         <header>
           <h2>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:</h2>
-          <a class="button" href="#">ВСЕ ПРОИЗВОДИТЕЛИ</a>
+          <a class="main-container-button" href="#">ВСЕ ПРОИЗВОДИТЕЛИ</a>
         </header>
         <ul class="popular-manufacturers-list">
-          <li class="popular-item popular-manufacturers-item">
+          <li class="catalog-item popular-manufacturers-item">
             <a href="#">
               <img
                 src="img/logo-bosch.png"
@@ -276,7 +288,7 @@
               />
             </a>
           </li>
-          <li class="popular-item popular-manufacturers-item">
+          <li class="catalog-item popular-manufacturers-item">
             <a href="#">
               <img
                 src="img/logo-makita.png"
@@ -286,7 +298,7 @@
               />
             </a>
           </li>
-          <li class="popular-item popular-manufacturers-item">
+          <li class="catalog-item popular-manufacturers-item">
             <a href="#">
               <img
                 src="img/logo-dewalt.png"
@@ -296,7 +308,7 @@
               />
             </a>
           </li>
-          <li class="popular-item popular-manufacturers-item">
+          <li class="catalog-item popular-manufacturers-item">
             <a href="#">
               <img
                 src="img/logo-interskol.png"
@@ -306,7 +318,7 @@
               />
             </a>
           </li>
-          <li class="popular-item popular-manufacturers-item">
+          <li class="catalog-item popular-manufacturers-item">
             <a href="#">
               <img
                 src="img/logo-hitachi.png"
@@ -316,7 +328,7 @@
               />
             </a>
           </li>
-          <li class="popular-item popular-manufacturers-item">
+          <li class="catalog-item popular-manufacturers-item">
             <a href="#">
               <img
                 src="img/logo-lg.png"
@@ -326,7 +338,7 @@
               />
             </a>
           </li>
-          <li class="popular-item popular-manufacturers-item">
+          <li class="catalog-item popular-manufacturers-item">
             <a href="#">
               <img
                 src="img/logo-aeg.png"
@@ -336,7 +348,7 @@
               />
             </a>
           </li>
-          <li class="popular-item popular-manufacturers-item">
+          <li class="catalog-item popular-manufacturers-item">
             <a href="#">
               <img
                 src="img/logo-metabo.png"
@@ -355,19 +367,34 @@
           Хороший интернет-магазин отличается от плохого не только ценами!<br />
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
-        <ul class="service-buttons">
+        <ul class="services-menu">
           <li>
-            <button class="service-button service-button-active" type="button">
+            <button
+              class="main-container-button services-menu-button services-menu-button-active"
+              type="button"
+            >
               Доставка
             </button>
           </li>
           <li>
-            <button class="service-button" type="button">Гарантия</button>
+            <button
+              class="main-container-button services-menu-button"
+              type="button"
+            >
+              Гарантия
+            </button>
           </li>
-          <li><button class="service-button" type="button">Кредит</button></li>
+          <li>
+            <button
+              class="main-container-button services-menu-button"
+              type="button"
+            >
+              Кредит
+            </button>
+          </li>
         </ul>
 
-        <ul class="service-list">
+        <ul class="services-list">
           <li class="service-item" id="service-delivery">
             <h3>ДОСТАВКА</h3>
             <p>
@@ -405,7 +432,7 @@
               Залезть в долговую яму стало проще!<br />
               Кредитные консультанты придут вам на помощь.
             </p>
-            <a class="button" href="#">ОТПРАВИТЬ ЗАЯВКУ</a>
+            <a class="main-container-button service-item-button" href="#">ОТПРАВИТЬ ЗАЯВКУ</a>
             <img
               src="img/icons/icon-dollars.svg"
               alt=""
@@ -433,7 +460,7 @@
           <li>Автотрейдинг</li>
           <li>ЖелДорЭкспедиция</li>
         </ul>
-        <a class="button" href="blank">ПОДРОБНЕЕ О КОМПАНИИ</a>
+        <a class="main-container-button" href="blank">ПОДРОБНЕЕ О КОМПАНИИ</a>
       </section>
 
       <section class="contacts">
@@ -449,7 +476,9 @@
             width="300"
             height="158"
         /></a>
-        <button class="button" type="button">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</button>
+        <button class="main-container-button" type="button">
+          ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!
+        </button>
       </section>
     </main>
 
@@ -461,7 +490,7 @@
       <section class="footer-contacts">
         <h2 class="visually-hidden">Контактная информация</h2>
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-        <a class="contacts-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
+        <a class="footer-call-us-button" href="tel:+78125550555">+7 (812) 555-05-55</a>
       </section>
 
       <nav class="footer-navigation">
@@ -553,7 +582,7 @@
 
     <section class="modal modal-write-us">
       <h2 class="visually-hidden">НАПИШИТЕ НАМ</h2>
-      <button class="button modal-close-button" type="button">
+      <button class="modal-close-button" type="button">
         <img
           src="img/icons/icon-close.svg"
           alt="Закрыть окно"
@@ -566,6 +595,7 @@
           <li>
             <label for="fullname-field">Ваше имя:</label>
             <input
+              class="modal-write-us-input"
               id="fullname-field"
               type="text"
               name="fullname"
@@ -575,6 +605,7 @@
           <li>
             <label for="email-field">Ваш e-mail:</label>
             <input
+            class="modal-write-us-input"
               id="email-field"
               type="text"
               name="email"
@@ -584,6 +615,7 @@
           <li>
             <label for="mail-text-field">Текст письма:</label>
             <textarea
+              class="modal-write-us-input"
               id="mail-text-field"
               name="mail-text"
               placeholder="В свободной форме"
@@ -591,7 +623,7 @@
           </li>
         </ul>
         <div class="modal-bottom">
-          <input class="button" type="submit" value="ОТПРАВИТЬ" />
+          <input class="modal-active-button" type="submit" value="ОТПРАВИТЬ" />
         </div>
       </form>
     </section>
